@@ -14,15 +14,13 @@
     <div class="sidemenu">
         <div class="sidemenu_header">
 
-            <button class="button sidemenu_closebut">
-                <img class="close_but" src="img/burgerCLO.svg" alt="burger menu close"> 
-            </button> 
+            <!-- <div class="rightside_menu"> -->
+                <button class="button sidemenu_closebut"></button> 
+                <img class="logo" src="C:\Users\Asus\Desktop\kata\Group.svg" alt="logo">
+            <!-- </div> -->
 
-            <img class="logo" src="img/Group.svg" alt="logo">
-
-            <button class="button sidemenu_search">
-                <img class="search_but" src="img/search.svg" alt="search buttom">  
-            </button> 
+            
+            <button class="button sidemenu_search"></button> 
 
         </div>
 
@@ -59,32 +57,26 @@
 
         </nav>
 
-        <div class="ad_buttons"> 
-            <button class="but">
-                <img class="image_but" src="img/call.svg" alt="call icon"> 
-            </button> 
-            <button class="but">
-                <img class="image_but" src="img/chat.svg" alt="chat icon">
-            </button> 
-            <button class="but">
-                <img class="image_but" src="img/profile.svg" alt="profile icon"> 
-            </button> 
+        <div class="bottom__menu">
+
+            <div class="ad_buttons"> 
+                <button class="button call__but"></button> 
+                <button class="button chat__but"></button> 
+                <button class="button prof__but"></button> 
+            </div>
+
+            <a class="email" href = "mailto: mail@cps.com">mail@cps.com</a> <br>
+            <a class="phone" href="tel:88008908900">8 800 890 8900</a>
+         
         </div>
 
-        <div class="email">mail@cps.com</div>
-        <div class="phonenum">8 800 890 8900</div>
-
-        <div class="lang-switch">
-            <button class="btn lang_bt">RU</button>
-            <button class="btn lang_bt">EN</button>
-            <button class="btn lang_bt">CH</button>
-        </div>  
-
-
+        <form class="lang-switch" method="get">
+            <label class="btn"><input type="radio" name="lang_sw" value="ru">RU</label>
+            <label class="btn"><input type="radio" name="lang_sw" value="en">EN</label>
+            <label class="btn"><input type="radio" name="lang_sw" value="ch">CH</label>
+        </form>
 
     </div>    
-
-    
     
 
 </body>
